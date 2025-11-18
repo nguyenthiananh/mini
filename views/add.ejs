@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm người dùng</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Thêm người dùng mới</h1>
+        <form action="/add" method="POST">
+            <label for="name">Tên:</label>
+            <input type="text" name="name" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            
+            <label for="age">Tuổi:</label>
+            <input type="number" name="age" id="age" required>
+            
+            <label for="address">Địa chỉ:</label>
+            <input type="text" name="address" id="address" required>
+
+            <button type="submit">Thêm</button>
+        </form>
+        <a href="/">Quay lại danh sách người dùng</a>
+    </div>
+</body>
+
+</html>
